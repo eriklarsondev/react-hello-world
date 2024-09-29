@@ -1,7 +1,7 @@
-export function HelloWorld() {
+export function HelloWorld({ label }) {
   return (
     <>
-      <h1>Hello, world!</h1>
+      <h1>{label}</h1>
     </>
   )
 }
